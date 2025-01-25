@@ -1737,3 +1737,37 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Etiqueta flotante */
+.promo-badge {
+  position: absolute;
+  top: -70px;
+  left: 80px;
+  background-color: #ff0000; /* Fondo rojo */
+  color: #ffffff; /* Letras blancas */
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 15px;
+  border: 3px solid #ffff00; /* Borde amarillo */
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  z-index: 10;
+}
+
+.promo-badge-2 {
+  position: absolute;
+  top: -70px;
+  left: 80px;
+  background-color: #ff0000; /* Fondo rojo */
+  color: #ffffff; /* Letras blancas */
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 15px;
+  border: 3px solid #ffff00; /* Borde amarillo */
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transform: rotate(-10deg);
+  z-index: 10;
+}
